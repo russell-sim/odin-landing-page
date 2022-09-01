@@ -4,3 +4,39 @@ body {
   padding: 0;
   margin: 0;
 }
+
+.header, .footer {
+  background-color: #1F2937;
+}
+
+/* Header section*/
+
+.headerLogo {
+  font-size: 24px;
+  color: #F9FAF8;
+}
+
+a {
+  font-size: 18px;
+  color: #E5E7EB;
+  text-decoration: none;
+}
+
+.heroText {
+  font-size: 48px;
+  font-weight: extra-bold;
+  color: #F9FAF8;
+}
+
+.heroSubtext {
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+/* Info section */
+
+/* Quote section */
+
+/* Sign up section */
+
+/* Footer */
