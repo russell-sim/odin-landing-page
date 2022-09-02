@@ -134,9 +134,12 @@ a {
   display: flex;
 }
 
+/* need to figure out why light font weight not working */
+/* fixed: had to import light API from google font */
+
 .quoteText {
   font-size: 36px;
-  font-weight: lighter;
+  font-weight: light;
   font-style: italic;
   color: #1F2937;
   width: 1000px;
