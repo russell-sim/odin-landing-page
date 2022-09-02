@@ -105,16 +105,21 @@ a {
 }
 
 .infoPanel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   flex: 1;
   width: 150px;
   height: 200px;
 }
 
-/* Why isn't the border working for img? */
+/* Why isn't the border working for img?
+* I FIXED IT: had incorrect border styling, and needed to add new flex properties to the infopanel containing the image*/
 
 .infoImage {
   border-width: 2px;
-  border-style: none;
+  border-style: solid;
   border-radius: 8px;
   border-color: #3882F6;
   width: 100px;
