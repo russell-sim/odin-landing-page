@@ -94,6 +94,7 @@ a {
   font-size: 36px;
   font-weight: extra-bold;
   color: #1F2937;
+  margin-top: 48px;
 }
 
 .infoPanels {
@@ -109,11 +110,17 @@ a {
   height: 200px;
 }
 
+/* Why isn't the border working for img? */
+
 .infoImage {
+  border-width: 2px;
+  border-style: none;
   border-radius: 8px;
+  border-color: #3882F6;
   width: 100px;
   height: 100px;
 }
+
 /* Quote section */
 
 .quote {
@@ -142,17 +149,22 @@ a {
 .signup {
   display: flex;
   margin: 16px;
+  padding: 48px;
 }
 
 .signupBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   background-color: #3882F6;
   border-radius: 8px;
-  padding: 16px;
+  padding: 32px;
   margin: 32px;
+  width: 1000px;
 }
 
 .signupText {
-  justify-content: center;
+  text-align: left;
   color: white;
 }
 
@@ -163,14 +175,23 @@ a {
 
 .signupButton {
   background-color: #3882F6;
-  border: 2px;
+  border-width: 2px;
+  border-style: solid;
   border-color: white;
   border-radius: 8px;
   color: white;
   font-weight: bold;
   font-size: 16px;
-  max-width: 90px;
-  padding: 8px;
+  width: 120px;
+  height: 50px;
+  padding: 16px;
 }
 
 /* Footer */
+
+.footer {
+  display: flex;
+  text-align: center;
+  color: white;
+  padding: 32px;
+}
